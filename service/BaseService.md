@@ -22,7 +22,7 @@
 | Coolant | ??? | ??? |
 
 ### Notes
-- When it comes to Engine oil Volvo recommends ACEA A5/B5 SAE 5W-30, but when it comes to unfavorable circumstances Volvo recommends ACEA A5/B5 SAE 0W-30. If you live in Sweden or any other country with cold climate, then you are in the category of unfavorable circumstances.
+- Volvo recommends engine oil ACEA A5/B5 SAE 5W-30, but when it comes to unfavorable circumstances Volvo recommends ACEA A5/B5 SAE 0W-30. If you live in Sweden or any other country with cold climate, then you are in the category of unfavorable circumstances.
 
 ## Service replacement intervalls
 | Item | Years | kilometers | Note |
@@ -63,7 +63,6 @@ This is service for Volvo cars that are older than 6 years, and it contains the 
 - Check level of distilled water in battery (only applies for older batteries not AGM)
 - Check that the battery is fixed in position and that the terminals are clean
 
-
 ## Lifting points
 ![](liftingpoints.jpg)
 ![](liftingpoints_2.jpg)
@@ -71,7 +70,7 @@ This is service for Volvo cars that are older than 6 years, and it contains the 
 
 ## Replace air filter
 - Remove hose connecting the air box with the engine, (hose is fixed with two hose clamps)
-- Remove Connector? 
+- Remove Connector to the air mass sensor 
 - Open the air box by unscrew all the trox screws
 - Remove old filter
 - Clean the air box compartment 
