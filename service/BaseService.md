@@ -152,4 +152,50 @@ It is not uncommon that no fluid is drained from the filter, and nothing to worr
 No info yet
 
 ## Cleaning windscreen in front of active safety / collision detection sensor
-No info yet
+Volvo says that the windscreen in front of the collision detection camera should be cleaned ever year / 20000 km during maintenance, however if you can´t see any dust or dirt when looking at the sensors from the outside, then this is most likely unnecessary, a Volvo service center might disagree.
+
+To get to the windscreen in front of the sensor, you have to remove a couple of fairings, for this you need some kind of plastic / nylon bending tool. The collision camera sensor is the left sensor when looking from the outside, standing in front of the car. The right sensor is a rain sensor, we should not touch or try to remove the rain sensor, it is glued directly against the windscreen and has an air tight seal, so no dust or dirt should be able to get there.
+
+Follow this procedure:
+- Remove the middle fairing behind the rear view mirror, by bending from the right or left, as the picture shows. There are two plastic tabs holding the fairing.
+- Remove the large fairing by bending to the right against the windscreen.
+- Pull on the upper clip of the sensor hosing as the picture shows.
+- Clean the windscreen whit any glas cleaner of you choice. It is good to use a microfiber towel that is specific for glas, all around microfiber towels tends to leave small hairs on glas.
+- Clean the plastic hosing of the sensors if there is dust.
+- Reinstall everything, but first make sure that everything is dry, we don´t want any moisture here that can form mist on the glas.
+
+![](cleaningCollisionSensor_1.jpg)
+![](cleaningCollisionSensor_2.jpg)
+![](cleaningCollisionSensor_3.jpg)
+![](cleaningCollisionSensor_4.jpg)
+![](cleaningCollisionSensor_5.jpg)
+![](cleaningCollisionSensor_6.jpg)
+![](cleaningCollisionSensor_7.jpg)
+![](cleaningCollisionSensor_8.jpg)
+![](cleaningCollisionSensor_9.jpg)
+![](cleaningCollisionSensor_10.jpg)
+![](cleaningCollisionSensor_11.jpg)
+
+
+## Inspect Coolant
+There are two things that you want to check when it comes to coolant. First is that the levels are okay, the level should be between the min and max line, but it is a good thing to top it up to the max line if it is not already there. Second is to check the freezing properties of the coolant. Volvo recommends that the coolant should be mixed such that it can handle -40&deg;C. If both the level and the freezing properties are good, then you don´t have to do anything. Volvo does not specify any intervals for flushing the coolant system, but if it has not been done within the last 10 years it might be a good thing to do. Changing coolant is quite inexpensive compared to other service items.
+![](coolantInspection_1.jpg)
+
+### Checking Coolant Level
+
+### Checking Coolant Freezing Properties
+One way to check the freezing properties is to use an refractometer, then you follow this procedure:
+- Drip one drop of distilled water / battery water (new) on the prism and adjust / calibrate the refractometer so that line matches up with the water line
+- Take a sample of coolant from the car and drip on the prism. (make sure that the prism is clean and free from other fluids)
+- Read out the freezing pont, we want to look at the scale for ethylene glycol.
+
+![](coolantInspection_2.jpg)
+![](coolantInspection_3.jpg)
+![](coolantInspection_4.jpg)
+
+### Adding Coolant / Adjusting Freezing properties
+The glykol that should be used is ethylene, it can have different colors, but is usually blue, at least that is the color used by Volvo:s coolant. The mixture should be 50/50 of water and concentrated coolant to achieve a freezing pont of -40&deg; however if your refractometer showed a freezing point that was to low, then you have to add more concentrate and vise versa. It is pointless to do another refractometer test right after adding new coolant, the engine has to be on for a while an mix in the new fluid with the existing fluid. If the coolant is at the max level, but the freezing point is wrong, then you can suck up some coolant from the reservoar and add more water or concentrate, depending on what you need.
+
+You should not use regular tap water, instead you should used demineralized or distilled water, also called battery water. Regular tap water contains minerals like calcium, carbonate, magnesium and manganese, and can form lime scale inside the engine, and can also lead to corrosion. The glycol contains additives to prevent this from happening, but I think it is better to be safe than sorry and use distilled water to mix with the concentrate.
+
+### Flushing / Replacing All Coolant
