@@ -38,7 +38,9 @@ This service documentation aims to describe the service you would get at Volvo i
 
 This section documents various issues that I have experienced with my Volvo, the trouble shooting procedures and solutions.
 
-🔧 [Reduced Engine Power Issue](./problems/reduced_engine_power.md) - Comprehensive guide to diagnosing and resolving reduced engine power problems, including VNT turbocharger related issues.
+🔧 [Reduced Engine Power Issue](./problems/reduced_engine_power/reduced_engine_power.md) - Comprehensive guide to diagnosing and resolving reduced engine power problems, including VNT turbocharger related issues.
+
+🔥 [Overheating Rear Brake](./problems/overheating_rear_break/overheating_rear_break.md) - Guide to troubleshooting an overheating brake disc caused by a stuck brake piston.
 
 ## Upgrades
 

@@ -18,7 +18,7 @@
 | Compartment air filter | 31390880 | ??? |
 | Copper sealing / oil plug | ??? | ??? |
 | Disele filter | ??? | ??? |
-| Break fluid | ??? | ??? |
+| Brake fluid | ??? | ??? |
 | Coolant | ??? | ??? |
 
 ### Notes
@@ -43,14 +43,14 @@ This is service for Volvo cars that are older than 6 years, and it contains the 
 
 - Check exterior lighting
 - Function test signal horn
-- Check and adjust parking break
+- Check and adjust parking brake
 - Change engine oil and filter
 - Check and measure wear on tires
 - Check air pressure inside tires
 - Check drive shafts play and gaiters
 - Outer inspection of engine, gearbox and final drive, check for oil leak and contamination
 - Check wear on brake pads
-- Inspect fule and break tubes, check fro leakage
+- Inspect fule and brake tubes, check fro leakage
 - Drain / replace fule filter
 - Check wear on steering and front carriage
 - Check wear on cardan shaft and support bearing
@@ -127,7 +127,7 @@ This part is not hard, but it is quite annoying and time consuming. The filter i
 - Remove 2 torx screws holding a plastic panel behind the glove compartment
 - Remove the plastic panel and disconnect the power cable to the floor light
 - Disconnect the power cable to the fuse box (blue clip) 
-- Remove the fusebox by pushing a plastic clip on the top of the assembly, and pull straight out. You cant pull on the bottom, then you will break something.
+- Remove the fusebox by pushing a plastic clip on the top of the assembly, and pull straight out. You cant pull on the bottom, then you will brake something.
 - Remove the plastic cover leading to the compartment air filter, 3 clips
 - Pull the old filter out
 - Insert the new filter, try to not use to many swear words. Make sure to place the filter in the correct orientation, an arrow on the filter should indicate the airflow direction. The arrow should point in to the car.
