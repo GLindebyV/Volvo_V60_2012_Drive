@@ -42,6 +42,8 @@ This section documents various issues that I have experienced with my Volvo, the
 
 🔥 [Overheating Rear Brake](./problems/overheating_rear_break/overheating_rear_break.md) - Guide to troubleshooting an overheating brake disc caused by a stuck brake piston.
 
+🅿️ [Stuck Parking Brake](./problems/stuck_parking_brake/stuck_parking_brake.md) - Troubleshooting a stuck electronic parking brake.
+
 ## Upgrades
 
 This section documents various upgrades and new features that I have added to my Volvo.
