@@ -18,7 +18,7 @@ Using the emergency scissor jack and 19mm socket, I removed the tire and began u
 Now I had a drivable car, but the system still believed the parking brake was engaged. It produced an extremely annoying beeping sound while driving that became even more frequent (about once per second) when traveling faster than 30 km/h. Driving the approximately 11-hour journey home to Gothenburg in this state with my partner and two small kids was simply not an option.
 
 ## Ordering a new motor
-I ordered a new motor from Vparts, which arrived in less than 24 hours—impressively fast service from both Vparts and PostNord. Unfortunately, the new motor did not fix the problem, which indicated that the original motor was probably still functional. In hindsight, it would have been smart to test the old motor using the car's 12-volt battery and two wires. However, I didn't have any wires available at the time, and I was overly confident that the motor was faulty, so I didn't think it through.
+I ordered a new motor from Vparts, which arrived in less than 24 hours impressively fast service from both Vparts and PostNord. Unfortunately, the new motor did not fix the problem, which indicated that the original motor was probably still functional. In hindsight, it would have been smart to test the old motor using the car's 12-volt battery and two wires. However, I didn't have any wires available at the time, and I was overly confident that the motor was faulty, so I didn't think it through.
 
 ## Diagnosis
 At this point, I didn't know what the problem could be, but I suspected it might be one of the following:
@@ -75,3 +75,7 @@ Two days later, I received a PBM from Jönköpings bildemontering, which worked 
 
 Removing the old PBM is quick but a bit tricky, as one of the plastic clips is difficult to find and reach before you can bend it out of its mount.
 ![](pbm_mount.png)
+
+## Why did the PBM fail?
+
+## Conclusions
