@@ -1,4 +1,5 @@
 # Stuck electronic parking brake
+![](car.png)
 During our cross-country ski vacation in Åre, Sweden, the temperature dropped to between -25 and -30 degrees Celsius, but I still wanted to ski. After pre-heating the car, I started driving to the tracks when I suddenly realized I had forgotten my glasses. I turned around and drove back to the cabin, which sits on a slight slope. I put the car in idle and engaged the electronic parking brake. Three minutes later, I tried to release the parking brake, but the system indicated that it had not fully disengaged. I tried multiple times to engage and disengage without any luck.
 
 When engaging the parking brake, I received a yellow warning stating that parking brake service was required. When disengaging, I got a red warning light with the message "parking brake not fully released."
@@ -77,5 +78,31 @@ Removing the old PBM is quick but a bit tricky, as one of the plastic clips is d
 ![](pbm_mount.png)
 
 ## Why did the PBM fail?
+After my drive home, I opened the old PBM and exposed the PCB. There were no visible signs of damage (burnt components, cracked packages, or broken solder joints).
 
-## Conclusions
+I then measured the resistance/continuity on the **unpowered** PBM connector pins. In short:
+
+- Both motors: C1:1 ↔ C1:2 showed near-zero resistance.
+- Left motor only: both C1:1 and C1:2 also showed near-zero resistance to ground.
+- Right motor: neither C1:1 nor C1:2 showed a short to ground.
+
+Note: in continuity mode a multimeter can sometimes forward-bias internal protection paths (e.g., MOSFET body diodes) and make “near-zero” readings ambiguous. The left-side short to ground is the key observation here.
+
+This matches the stored fault code C2008-11 (left motor circuit short to ground).
+![](pbm_pinout.png)
+
+On the PCB there are two of each of the following high-current components (markings as printed on the package):
+
+| Marking | Likely device |
+| --- | --- |
+| 9215055A 3733 Pem 1205 E7 | N-channel MOSFET |
+| Q50N04 1m 5L AC T22B | N-channel MOSFET |
+| 20205Y 0610 ACT212 M41 12V | 12V automotive power relay |
+
+These components likely handle the motor current and polarity reversal needed to drive the motor in both directions (apply and release).
+
+![](pbm_pcb.png)
+
+My best hypothesis is that the extremely cold weather increased the mechanical resistance in the brake mechanism. When attempting to release the parking brake, the motor likely experienced a high stall current. This current spike may have exceeded the safe operating limits of one of the low-side MOSFETs controlling the left motor, causing it to fail shorted to ground. This would explain both the electrical measurements and the stored fault code.
+
+Without a schematic, it is difficult to conclusively identify which specific device failed.
